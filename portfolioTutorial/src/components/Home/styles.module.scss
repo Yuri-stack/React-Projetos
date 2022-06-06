@@ -1,58 +1,62 @@
-.content{
-    position: absolute;
-    top: calc(50% - 80px);
-    left: 8%;
-    transform: translateY(-50);
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 80px);
 
-    h1{
-        margin: 1.25rem 0 1.25rem; //20px 0px
-        font-size: 4.6875rem;   //75px
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    h3{
-        font-size: 1.5625rem;   //25px
-        margin-bottom: 3.125rem;    //50px
-    }
+    .content{
+        max-width: 600px;
     
-    h4{
-        color: #fcfc;
-        letter-spacing: 0.125rem; //2px
-        font-size: 1.25rem; //20px
-    }
-
-    span{
-        color: var(--magenta);
-    }
+        h1{
+            margin: 1.25rem 0 1.25rem; //20px 0px
+            font-size: 4.6875rem;   //75px
+        }
     
-    .newslatter{
-        form{
-            width: 23.75rem;    //380px
-            max-width: 100%;
-            position: relative;
-    
-            input:first-child{
-                display: inline-block;
-                width: 100%;
-                padding: 0.875rem 8.125rem 0.9375rem 0.875rem;  //14px 130px 14px 15px
-                border: 0.125rem solid var(--magenta); //2px
-                outline: none;
-                border-radius: 1.875rem;    //30px
-            }
-    
-            input:last-child{
-                position: absolute;
-                display: inline-block;
-                outline: none;
-                border: none;
-                padding: 0.625rem 1.875rem;    //10px 30px
-                border-radius: 1.875rem;    //30px
-                background-color: var(--magenta);
-                color: var(--white);
-                box-shadow: 0 0 0.3125rem #000, 0 0 0.875rem #858585;
-                top: 0.375rem;
-                right: 0.375rem;
+        h3{
+            font-size: 1.5625rem;   //25px
+            margin-bottom: 3.125rem;    //50px
+        }
+        
+        h4{
+            color: var(--magenta-100);
+            letter-spacing: 0.125rem; //2px
+            font-size: 1.25rem; //20px
+        }
+            
+        .newslatter{
+            form{
+                width: 23.75rem;    //380px
+                max-width: 100%;
+                position: relative;
+        
+                input:first-child{
+                    display: inline-block;
+                    width: 100%;
+                    padding: 0.875rem 8.125rem 0.9375rem 0.875rem;  //14px 130px 14px 15px
+                    border: 0.125rem solid var(--magenta); //2px
+                    outline: none;
+                    border-radius: 1.875rem;    //30px
+                }
+        
+                input:last-child{
+                    position: absolute;
+                    display: inline-block;
+                    outline: none;
+                    border: none;
+                    padding: 0.625rem 1.875rem;    //10px 30px
+                    border-radius: 1.875rem;    //30px
+                    background-color: var(--magenta);
+                    color: var(--white);
+                    box-shadow: 0 0 0.3125rem #000, 0 0 0.875rem #858585;
+                    top: 0.375rem;
+                    right: 0.375rem;
+                }
             }
         }
+        
     }
-    
 }

@@ -6,6 +6,7 @@
 }
 
 :root {
+    --magenta-100: #fcfc;
     --magenta: #f9004d;
 
     --gray-200: #828282;
@@ -37,4 +38,8 @@ body {
     background: var(--black-800);
     color: var(--white);
     -webkit-font-smooth: antialised; // Fonts mais detalhadas/nítidas
+
+    span{
+        color: var(--magenta);
+    }
 }

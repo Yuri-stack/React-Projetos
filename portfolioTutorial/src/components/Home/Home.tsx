@@ -2,7 +2,8 @@ import styles from './styles.module.scss'
 
 export default function Home() {
   return (
-    <div className={ styles.content }>
+    <main className={ styles.container }>
+      <div className={ styles.content }>
         <h4>Hello, my name is</h4>
         <h1>Yuri <span>Oliveira</span></h1>
         <h3>I'm a Web Developer</h3>
@@ -14,5 +15,6 @@ export default function Home() {
             </form>
         </div>
     </div>
+    </main>
   )
 }
